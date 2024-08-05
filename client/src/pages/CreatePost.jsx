@@ -148,6 +148,7 @@ export default function CreatePost() {
           className='h-72 mb-12'
           required
           onChange={(value) => {
+            
             setFormData({ ...formData, content: value });
           }}
         />
